@@ -15,4 +15,4 @@ jobs:
           node-version: "14"
       - name: Update
         run: |
-          npx stargazed -u woong -t ${{ secrets.STARGAZED_TOKEN }} -r awesome-stars -m "stargazed update" -s
+          npx stargazed -u desiresprout -t ${{ secrets.STARGAZED_TOKEN }} -r awesome-stars -m "stargazed update" -s
